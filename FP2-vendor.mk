@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/fairphone/FP2/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/fairphone/FP2/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/fairphone/FP2/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/fairphone/FP2/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/fairphone/FP2/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/fairphone/FP2/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -113,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -128,6 +130,8 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
