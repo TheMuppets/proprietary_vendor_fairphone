@@ -197,7 +197,8 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/fairphone/FP2/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so
+    vendor/fairphone/FP2/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
