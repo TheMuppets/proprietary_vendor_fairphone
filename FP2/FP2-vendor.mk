@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:system/vendor/lib/libactuator_dw9716_camcorder.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_dw9716_camera.so:system/vendor/lib/libactuator_dw9716_camera.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_dw9800W.so:system/vendor/lib/libactuator_dw9800W.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_dw9800W_camcorder.so:system/vendor/lib/libactuator_dw9800W_camcorder.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_dw9800W_camera.so:system/vendor/lib/libactuator_dw9800W_camera.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_iu074.so:system/vendor/lib/libactuator_iu074.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_iu074_camcorder.so:system/vendor/lib/libactuator_iu074_camcorder.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_iu074_camera.so:system/vendor/lib/libactuator_iu074_camera.so \
@@ -74,6 +77,10 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_imx135_preview.so:system/vendor/lib/libchromatix_imx135_preview.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:system/vendor/lib/libchromatix_imx135_snapshot.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov12870_common.so:system/vendor/lib/libchromatix_ov12870_common.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov12870_default_video.so:system/vendor/lib/libchromatix_ov12870_default_video.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov12870_preview.so:system/vendor/lib/libchromatix_ov12870_preview.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov12870_snapshot.so:system/vendor/lib/libchromatix_ov12870_snapshot.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov2685_common.so:system/vendor/lib/libchromatix_ov2685_common.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov2685_default_video.so:system/vendor/lib/libchromatix_ov2685_default_video.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov2685_preview.so:system/vendor/lib/libchromatix_ov2685_preview.so \
@@ -89,6 +96,10 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_preview.so:system/vendor/lib/libchromatix_ov5648_oty5f03_preview.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so:system/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so:system/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov5670_common.so:system/vendor/lib/libchromatix_ov5670_common.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov5670_preview.so:system/vendor/lib/libchromatix_ov5670_preview.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov5670_snapshot.so:system/vendor/lib/libchromatix_ov5670_snapshot.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov5670_video.so:system/vendor/lib/libchromatix_ov5670_video.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov8825_common.so:system/vendor/lib/libchromatix_ov8825_common.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov8825_default_video.so:system/vendor/lib/libchromatix_ov8825_default_video.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_ov8825_hfr_120fps.so:system/vendor/lib/libchromatix_ov8825_hfr_120fps.so \
@@ -173,9 +184,12 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_ov12870.so:system/vendor/lib/libmmcamera_ov12870.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_ov12870_gt24p64a_eeprom.so:system/vendor/lib/libmmcamera_ov12870_gt24p64a_eeprom.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_ov2685.so:system/vendor/lib/libmmcamera_ov2685.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
+    vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_ov9724.so:system/vendor/lib/libmmcamera_ov9724.so \
