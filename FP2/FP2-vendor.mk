@@ -252,7 +252,6 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/fairphone/FP2/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/fairphone/FP2/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
-    vendor/fairphone/FP2/proprietary/vendor/framework/qti-telephony-common.jar:system/vendor/framework/qti-telephony-common.jar \
     vendor/fairphone/FP2/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/fairphone/FP2/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/fairphone/FP2/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
