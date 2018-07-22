@@ -220,7 +220,6 @@ PRODUCT_COPY_FILES += \
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/fairphone/FP2/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/fairphone/FP2/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/fairphone/FP2/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/fairphone/FP2/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
