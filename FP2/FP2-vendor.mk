@@ -16,8 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/fairphone/FP2/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/fairphone/FP2/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
     vendor/fairphone/FP2/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
     vendor/fairphone/FP2/proprietary/vendor/lib/hw/camera.msm8974.so:system/vendor/lib/hw/camera.msm8974.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_imx135_liveshot.so:system/vendor/lib/libchromatix_imx135_liveshot.so \
