@@ -17,11 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/fairphone/FP2/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/fairphone/FP2/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/fairphone/FP2/proprietary/vendor/lib/hw/camera.msm8974.so:system/vendor/lib/hw/camera.msm8974.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libchromatix_imx135_liveshot.so:system/vendor/lib/libchromatix_imx135_liveshot.so \
-    vendor/fairphone/FP2/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
-    vendor/fairphone/FP2/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
-    vendor/fairphone/FP2/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/fairphone/FP2/proprietary/vendor/bin/senread:system/vendor/bin/senread \
     vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/fairphone/FP2/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
