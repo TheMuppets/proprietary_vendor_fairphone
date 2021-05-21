@@ -240,7 +240,7 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>2.51</FocalLength>
+      <FocalLength>2.58</FocalLength>
       <FNumber>2.0</FNumber>
       <TotalFocusDistance>1.5</TotalFocusDistance>
       <HorizontalViewAngle>71.5</HorizontalViewAngle>
