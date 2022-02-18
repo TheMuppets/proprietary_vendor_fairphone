@@ -1,0 +1,11 @@
+multiCameraEnable=TRUE
+#logInfoMask=0x2
+#overrideLogLevels=0x7
+#dumpSensorEEPROMData=TRUE
+#systemLogEnable=TRUE
+#useFeatureForQCFA=1
+#exposeFullSizeForQCFA=TRUE
+#advanceFeatureMask=0x40
+customTOFSensorLib=/vendor/lib64/hw/sensors.vl53l1_fp4.so
+enableTOFInterface=TRUE
+
