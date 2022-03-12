@@ -1,0 +1,19 @@
+service tctd /vendor/bin/tctd
+    class core
+    group audio
+    socket tctd stream 0666 root root
+    group root system
+    seclabel u:r:tctd:s0
+
+on post-fs
+    mkdir /mnt/vendor/persist/t2m_param 0777 root system
+
+on property:ro.vendor.t2m.btmac=*
+    setprop ro.vendor.bt.boot.macaddr ${ro.vendor.t2m.btmac}
+
+service vendor.audio_tctd /vendor/bin/mm-audio-ftm -tc ${vendor.t2m.debug.audio.tc} -c ${vendor.t2m.debug.audio.config} -d 365
+    user audio
+    group audio
+    disabled
+    oneshot
+
