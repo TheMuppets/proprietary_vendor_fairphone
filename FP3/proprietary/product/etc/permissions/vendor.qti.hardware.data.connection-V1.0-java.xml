@@ -6,5 +6,5 @@
 -->
 <permissions>
     <library name="vendor.qti.hardware.data.connection-V1.0-java"
-            file="/system/framework/vendor.qti.hardware.data.connection-V1.0-java.jar" />
+            file="/system/product/framework/vendor.qti.hardware.data.connection-V1.0-java.jar" />
 </permissions>
