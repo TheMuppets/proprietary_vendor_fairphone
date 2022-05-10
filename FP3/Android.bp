@@ -59,17 +59,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ConnectionSecurityService",
-	owner: "fairphone",
-	apk: "proprietary/vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "IWlanService",
 	owner: "fairphone",
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
@@ -84,17 +73,6 @@ android_app_import {
 	name: "TimeService",
 	owner: "fairphone",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "TrustZoneAccessService",
-	owner: "fairphone",
-	apk: "proprietary/vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -158,39 +136,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "NetworkSetting",
-	owner: "fairphone",
-	apk: "proprietary/system_ext/app/NetworkSetting/NetworkSetting.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "QCC-AUTHMGR",
-	owner: "fairphone",
-	apk: "proprietary/system_ext/app/QCC-AUTHMGR/QCC-AUTHMGR.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "QCC",
-	owner: "fairphone",
-	apk: "proprietary/system_ext/app/QCC/QCC.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "QtiTelephonyService",
 	owner: "fairphone",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
@@ -213,42 +158,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SimSettings",
-	owner: "fairphone",
-	apk: "proprietary/system_ext/app/SimSettings/SimSettings.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "atfwd",
 	owner: "fairphone",
 	apk: "proprietary/system_ext/app/atfwd/atfwd.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "com.qualcomm.qti.services.secureui",
-	owner: "fairphone",
-	apk: "proprietary/system_ext/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "datastatusnotification",
-	owner: "fairphone",
-	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -368,18 +280,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "com.qualcomm.qti.services.systemhelper",
-	owner: "fairphone",
-	apk: "proprietary/system_ext/priv-app/com.qualcomm.qti.services.systemhelper/com.qualcomm.qti.services.systemhelper.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "dpmserviceapp",
 	owner: "fairphone",
 	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
@@ -461,6 +361,454 @@ dex_import {
 	name: "telephony-ext",
 	owner: "fairphone",
 	jars: ["proprietary/framework/telephony-ext.jar"],
+}
+
+dex_import {
+	name: "ActivityExt",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/ActivityExt.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "audiosphere",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.location.sdk",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.qti.location.sdk.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.media.secureprocessor",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.qti.media.secureprocessor.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.imscmservice-V2.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.imscmservice-V2.1-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.imscmservice-V2.2-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.1-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.2-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.3-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.3-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.api-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.api-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.api-V1.1-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.api-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V2.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V2.1-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "embmslibrary",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/embmslibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qmapbridge",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/qmapbridge.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "remotesimlockmanagerlibrary",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/remotesimlockmanagerlibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "uimgbalibrary",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/uimgbalibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "uimgbamanagerlibrary",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/uimgbamanagerlibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "uimlpalibrary",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/uimlpalibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "uimremoteclientlibrary",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/uimremoteclientlibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "uimremoteserverlibrary",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/uimremoteserverlibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "uimremotesimlocklibrary",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/uimremotesimlocklibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "uimservicelibrary",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/uimservicelibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.1-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.2-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.3-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.3-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.mwqem-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.mwqem-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.slm-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.slm-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.alarm-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.api-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.constants-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.server-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.server-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.connection-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.connection-V1.1-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.dynamicdds-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.iwlan-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.latency-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.lce-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.lce-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.qmi-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.fingerprint-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.mwqemadapter-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.mwqemadapter-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.sensorscalibrate-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.slmadapter-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.slmadapter-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.soter-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.callcapability-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.callinfo-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.factory-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.factory-V1.1-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V1.1-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V2.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V2.1-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.latency-V2.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.latency-V2.1-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.voiceprint-V1.0-java",
+	owner: "fairphone",
+	jars: ["proprietary/system_ext/framework/vendor.qti.voiceprint-V1.0-java.jar"],
+	system_ext_specific: true,
 }
 
 prebuilt_etc_xml {

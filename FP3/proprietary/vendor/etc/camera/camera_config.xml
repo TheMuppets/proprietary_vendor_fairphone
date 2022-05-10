@@ -84,6 +84,7 @@ LensInfo : Information of the lens present in the module.
 -->
 
 <CameraConfigurationRoot>
+<!-- //[8901][Camera] Add for Main Camera s5kgm1sp driver Frank Cheng 20200406 S-->
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>s5kgm1sp</SensorName>
@@ -165,6 +166,8 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+<!-- //[8901][Camera] Add for Main Camera imx363 2nd source driver Frank Cheng 20191228 E-->
+<!-- //[8901][Camera] Add for Main Camera imx363 driver Person 20190403 S-->
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>imx363</SensorName>
@@ -190,6 +193,8 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+<!-- //[8901][Camera] Add for Main Camera imx363 driver Person 20190403 E-->  
+<!-- //[8901][Camera] Add for Main Camera imx486 driver Person 20181130 S-->
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>imx486</SensorName>
@@ -215,6 +220,8 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+<!-- //[8901][Camera] Add for Main Camera imx486 driver Person 20181130 S  -->
+<!-- //<2018/10/18-Yuting Shih.[FAIRPHONE][MISC][COMMON][CAMERA][][]Add new front camera device driver S5K4H7YX. -->
   <CameraModuleConfig>
     <CameraId>2</CameraId>
     <SensorName>s5k4h7yx</SensorName>
@@ -241,6 +248,7 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+<!-- //>2018/10/18-Yuting Shih.[FAIRPHONE][MISC][COMMON][CAMERA][][]. -->
   <CameraModuleConfig>
     <CameraId>2</CameraId>
     <SensorName>s5k3p9sp</SensorName>
