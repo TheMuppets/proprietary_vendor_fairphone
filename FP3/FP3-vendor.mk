@@ -526,6 +526,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/vendor/bin/hal_proxy_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hal_proxy_daemon \
     vendor/fairphone/FP3/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/fairphone/FP3/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
+    vendor/fairphone/FP3/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/fairphone/FP3/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/fairphone/FP3/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/fairphone/FP3/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
@@ -735,6 +736,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/vendor/etc/ftm_test_config_wcd9335:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_wcd9335 \
     vendor/fairphone/FP3/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/fairphone/FP3/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/fairphone/FP3/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/fairphone/FP3/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/fairphone/FP3/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/fairphone/FP3/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
@@ -2708,6 +2710,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libxtwifi_server_protocol.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_server_protocol.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libxtwifi_server_protocol_uri_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_server_protocol_uri_v3.so \
+    vendor/fairphone/FP3/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_librilutils.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtibus.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtimutex.so \
@@ -3099,10 +3102,12 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
     vendor/fairphone/FP3/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
     vendor/fairphone/FP3/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
+    vendor/fairphone/FP3/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/fairphone/FP3/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/fairphone/FP3/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/fairphone/FP3/proprietary/vendor/lib64/libxtwifi_server_protocol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_server_protocol.so \
     vendor/fairphone/FP3/proprietary/vendor/lib64/libxtwifi_server_protocol_uri_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_server_protocol_uri_v3.so \
+    vendor/fairphone/FP3/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/fairphone/FP3/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/fairphone/FP3/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     vendor/fairphone/FP3/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
@@ -3270,5 +3275,6 @@ PRODUCT_PACKAGES += \
     tcmclient \
     tcmiface \
     telephony-ext \
+    manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@4.0-service \
     vendor.qti.hardware.servicetracker@1.2-service
