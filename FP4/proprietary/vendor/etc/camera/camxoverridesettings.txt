@@ -8,4 +8,8 @@ multiCameraEnable=TRUE
 #advanceFeatureMask=0x40
 customTOFSensorLib=/vendor/lib64/hw/sensors.vl53l1_fp4.so
 enableTOFInterface=TRUE
-
+#enable3ADebugData=TRUE
+#enableTuningMetadata=TRUE
+#debugDataSizeAEC=6000
+#debugDataSizeAWB=650000
+#debugDataSizeAF=70000
